@@ -14,5 +14,5 @@ clear;
 
 ##
 
-python3 email-host.py intranet.embanet.softwareshinobi.digital
+python3 email-host.py gallardo.embanet.softwareshinobi.digital
 
