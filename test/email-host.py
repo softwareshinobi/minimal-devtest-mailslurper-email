@@ -37,10 +37,15 @@ DATE_FORMAT_6 = "%a, %-d %b %Y %H:%M:%S -0700 (UTC)"
 DATE_FORMAT_7 = "%a, %-d %b %Y %H:%M:%S -0700"
 
 useSSL = False
-address = "intranet.aventador.softwareshinobi.digital"
-smtpPort = 25
+address = "10.28.1.1"
+smtpPort = 2500
 
-
+if len(sys.argv) > 1:
+    address = sys.argv[1]
+else:
+    print("Error: Please provide the host address as a command line argument.")
+    sys.exit(1)
+    
 def makeHTMLMessage(subject, date, dateFormat, body):
     msg = MIMEMultipart()
     html = MIMEText(body, "html")
