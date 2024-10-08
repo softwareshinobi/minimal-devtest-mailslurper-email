@@ -37,7 +37,7 @@ DATE_FORMAT_6 = "%a, %-d %b %Y %H:%M:%S -0700 (UTC)"
 DATE_FORMAT_7 = "%a, %-d %b %Y %H:%M:%S -0700"
 
 useSSL = False
-address = "127.0.0.1"
+address = "10.28.1.1"
 smtpPort = 2500
 
 

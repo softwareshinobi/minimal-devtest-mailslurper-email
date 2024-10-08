@@ -1,0 +1,26 @@
+services:
+
+    embaNET-mail-server:
+        
+        container_name: embaNET-mail-server
+
+        image: softwareshinobi/embanet-mail-server
+        
+        build: 
+
+            context: .
+
+            dockerfile: Dockerfile
+
+        ports:
+
+            - "2500:2500"
+            
+            - "8080:8080"
+            
+            - "8085:8085"
+                        
+        volumes:
+        
+            - /tmp/embanNET/email/:/opt/mailslurper/database/
+                            
