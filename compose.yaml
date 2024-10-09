@@ -22,5 +22,5 @@ services:
                         
         volumes:
         
-            - /tmp/embanNET/email/:/opt/mailslurper/database/
+            - ./emails/:/opt/mailslurper/database/
                             
