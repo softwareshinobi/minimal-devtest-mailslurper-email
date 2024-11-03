@@ -8,7 +8,7 @@
 	"dbEngine": "SQLite",
 	"dbHost": "",
 	"dbPort": 0,
-	"dbDatabase": "./database/mailslurper.db",
+	"dbDatabase": "database/mailslurper.db",
 	"dbUserName": "",
 	"dbPassword": "",
 	"maxWorkers": 1000,
